@@ -7,11 +7,7 @@ interface ParentComponentProps {
 const ParentComponent: React.FC<ParentComponentProps> = ({ render }) => {
     const [data] = useState<string[]>(["Apple 🍎", "Banana 🍌", "Orange 🍊"]);
 
-    return (
-        <div>
-            {render(data)}
-        </div>
-    );
+    return <ul>{render(data)}</ul>
 };
 
 export default ParentComponent;
