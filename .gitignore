@@ -1,4 +1,9 @@
 node_modules
 dist
+<<<<<<< HEAD
 .vite
 .env
+=======
+.env
+.vscode
+>>>>>>> e9a4d987b1d21d48ea523444149d5f345e9767ee

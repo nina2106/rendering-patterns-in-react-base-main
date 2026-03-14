@@ -24,10 +24,17 @@ export const Toggle: React.FC<ToggleProps> = ({isToggled = false, onToggle}) => 
 };
 export const ParentComponent = () => {
   const [toggleState, setToggleState] = useState(false);
+  
   return (
     <div>
       <p>Toggle is {toggleState ? "ON " : "OFF "}</p>
       <Toggle isToggled = {toggleState} onToggle={setToggleState} />
+    </div>
+  );
+};    
+export const ParentComponent = () => {
+  return (
+    <div>
     </div>
   );
 };
