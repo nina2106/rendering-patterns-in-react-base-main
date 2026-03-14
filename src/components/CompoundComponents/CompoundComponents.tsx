@@ -4,7 +4,7 @@ export const CompoundComponents = () => {
   return (
     <div>
       <Tab label="Girafa">
-        🦒
+       🦒
       </Tab>
       <Tab label="Delfin">
         🐬
