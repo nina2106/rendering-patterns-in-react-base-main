@@ -32,9 +32,4 @@ export const ParentComponent = () => {
     </div>
   );
 };    
-export const ParentComponent = () => {
-  return (
-    <div>
-    </div>
-  );
-};
+
